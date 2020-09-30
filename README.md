@@ -3,7 +3,7 @@ About pycryptodome
 
 Home: http://www.pycryptodome.org
 
-Package license: BSD
+Package license: BSD-2-Clause
 
 Feedstock license: BSD-3-Clause
 
@@ -277,4 +277,5 @@ Feedstock Maintainers
 
 * [@benhuff](https://github.com/benhuff/)
 * [@mariusvniekerk](https://github.com/mariusvniekerk/)
+* [@nehaljwani](https://github.com/nehaljwani/)
 
