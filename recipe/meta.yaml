@@ -1,17 +1,17 @@
 {% set name = "pycryptodome" %}
-{% set version = "3.9.8" %}
+{% set version = "3.9.9" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0e24171cf01021bc5dc17d6a9d4f33a048f09d62cc3f62541e95ef104588bda4
+  sha256: 910e202a557e1131b1c1b3f17a63914d57aac55cf9fb9b51644962841c3995c4
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   build:
