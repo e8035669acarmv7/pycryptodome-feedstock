@@ -1,5 +1,5 @@
 {% set name = "pycryptodome" %}
-{% set version = "3.16.0" %}
+{% set version = "3.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0e45d2d852a66ecfb904f090c3f87dc0dfb89a499570abad8590f10d9cffb350
+  sha256: c9adee653fc882d98956e33ca2c1fb582e23a8af7ac82fee75bd6113c55a0413
 
 build:
   number: 0

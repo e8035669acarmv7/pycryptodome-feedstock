@@ -1,11 +1,11 @@
-About pycryptodome
-==================
+About pycryptodome-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycryptodome-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.pycryptodome.org
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycryptodome-feedstock/blob/main/LICENSE.txt)
 
 Summary: Cryptographic library for Python
 
